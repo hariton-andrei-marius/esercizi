@@ -1,0 +1,7 @@
+<h1>Dashboard</h1>
+
+<ul>
+    <li *ngFor="let app of applications">
+        <a [routerLink]="'/app/'+app.id">{{app.name}}</a>
+    </li>
+</ul>

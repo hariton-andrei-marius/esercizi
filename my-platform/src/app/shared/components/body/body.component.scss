@@ -1,0 +1,10 @@
+.wrapper {
+    display: block;
+    max-width: calc(80vw - 40px);
+    height: calc(100% - 80px);
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #eee;
+    padding: 20px;
+}

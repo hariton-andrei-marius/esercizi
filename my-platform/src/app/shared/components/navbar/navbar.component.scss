@@ -1,0 +1,24 @@
+ul {
+    display: block;
+    width: 100%;
+    background-color: #ddd;
+    text-align: center;
+
+    li {
+        cursor: pointer;
+        display: inline-block;
+        font-size: 18px;
+
+        a {
+            display: inline-block;
+            color: #000;
+            text-decoration: none;
+            margin: 0 5px 0 5px;
+            padding: 10px 5px 10px 5px;
+        }
+
+        &:hover {
+            background-color: rgba(#000, .1);
+        }
+    }
+}
